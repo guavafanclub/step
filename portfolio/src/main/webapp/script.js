@@ -13,16 +13,16 @@
 // limitations under the License.
 
 /**
- * Adds a random greeting to the page.
+ * Adds a random Avatar quote to the page.
  */
-function addRandomGreeting() {
-  const greetings =
-      ['Hello world!', '¡Hola Mundo!', '你好，世界！', 'Bonjour le monde!'];
+function addRandomAvatarQuote() {
+  const avatarQuotes =
+      ['Life happens wherever you are, whether you make it or not.', 'I know you’re not supposed to cry over spilled tea, but it’s just so sad!', 'There are reasons each of us are born. We have to find those reasons.', 'Are you so busy fighting you cannot see your own ship has set sail?'];
 
-  // Pick a random greeting.
-  const greeting = greetings[Math.floor(Math.random() * greetings.length)];
+  // Pick a random Avatar quote.
+  const avatarQuote = avatarQuotes[Math.floor(Math.random() * avatarQuotes.length)];
 
   // Add it to the page.
-  const greetingContainer = document.getElementById('greeting-container');
-  greetingContainer.innerText = greeting;
+  const avatarQuoteContainer = document.getElementById('avatarQuote-container');
+  avatarQuoteContainer.innerText = avatarQuote;
 }
