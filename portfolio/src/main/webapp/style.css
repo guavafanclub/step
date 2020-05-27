@@ -4,6 +4,12 @@
   width: 650px;
 }
 
+.header img{
+    height: 325px;
+}
+
+}
+
 #greeting-container {
   margin-top: 20px;
 }
