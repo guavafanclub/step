@@ -4,12 +4,6 @@
   width: 650px;
 }
 
-.header img{
-    height: 325px;
-}
-
-}
-
-#avatarQuote-container {
+#greeting-container {
   margin-top: 20px;
 }
