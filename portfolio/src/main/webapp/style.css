@@ -11,15 +11,11 @@
     flex-direction:column;
 }
 
-.menu{
+.menu, #header-title{
   display:flex;
   justify-content:space-around;
 }
 
-#header-title{
-  display: flex;
-  justify-content:space-around;
-}
 #avatarQuote-container {
   margin-top: 20px;
 }
