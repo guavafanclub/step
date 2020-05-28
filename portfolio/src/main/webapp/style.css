@@ -4,8 +4,8 @@
   width: 650px;
 }
 
-.header img{
-    height: 325px;
+.header{
+    background-image: url("images/taylor-van-riper-sky.jpg");
 }
 
 }
