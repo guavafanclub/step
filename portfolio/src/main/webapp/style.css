@@ -7,13 +7,13 @@
 .header{
     background-image: url("images/taylor-van-riper-sky.jpg");
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     padding: 3%;
 }
 
 .menu, #header-title{
-  display:flex;
-  justify-content:space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 #avatarQuote-container {
