@@ -11,7 +11,8 @@
     padding: 3%;
 }
 
-.menu, #header-title {
+.menu,
+#header-title {
   display: flex;
   justify-content: space-around;
 }
