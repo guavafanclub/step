@@ -13,3 +13,9 @@
 #avatarQuote-container {
   margin-top: 20px;
 }
+
+/* Content */
+.spread{
+  display: flex;
+  justify-content: center;
+}
