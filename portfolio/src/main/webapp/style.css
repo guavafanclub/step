@@ -1,9 +1,9 @@
 /* Header */
 .header {
-    background-image: url('images/taylor-van-riper-sky.jpg');
-    display: flex;
-    flex-direction: column;
-    padding: 3%;
+  background-image: url('images/taylor-van-riper-sky.jpg');
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
 }
 
 .menu,
