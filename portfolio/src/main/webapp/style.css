@@ -22,3 +22,8 @@
 #avatarQuote-container {
   margin-top: 20px;
 }
+
+/* Footer */
+.footer img {
+  width: 50px;
+}
