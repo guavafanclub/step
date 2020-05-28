@@ -6,9 +6,9 @@
 
 .header{
     background-image: url("images/taylor-van-riper-sky.jpg");
-    padding: 3%;
     display: flex;
     flex-direction:column;
+    padding: 3%;
 }
 
 .menu, #header-title{
