@@ -1,7 +1,6 @@
 #content {
   margin-left: auto;
   margin-right: auto;
-  width: 650px;
 }
 
 .header img{
@@ -21,11 +20,11 @@
 }
 
 .spread-content img{
-  height: 80px;
-  width: 80px;
+  height: 450px;
+  width: 500px;
 }
 
 .spread-text{
-  height: 80px;
-  width: 80px;
+  height: 450px;
+  width: 500px;
 }
