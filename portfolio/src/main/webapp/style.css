@@ -4,7 +4,20 @@
   background-image: url('images/taylor-van-riper-sky.jpg');
   display: flex;
   flex-direction: column;
+  font-family: 'Oswald', sans-serif;
   padding: 30px;
+}
+
+.header a{
+  color: white;
+}
+
+.header a:link{
+  text-decoration: none;
+}
+
+.header a:hover{
+  text-decoration: underline;
 }
 
 .menu,
