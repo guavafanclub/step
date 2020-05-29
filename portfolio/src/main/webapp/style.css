@@ -25,6 +25,10 @@
 }
 
 .spread-text{
+  text-align: center;
   height: 450px;
   width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
