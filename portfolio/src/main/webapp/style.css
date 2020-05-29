@@ -19,3 +19,13 @@
   display: flex;
   justify-content: center;
 }
+
+.spread-content img{
+  height: 80px;
+  width: 80px;
+}
+
+.spread-text{
+  height: 80px;
+  width: 80px;
+}
