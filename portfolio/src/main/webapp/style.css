@@ -60,3 +60,7 @@
   width: 500px;
 }
 
+.spread-text ul{
+  list-style: inside;
+}
+
