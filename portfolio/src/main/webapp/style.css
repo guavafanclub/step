@@ -47,3 +47,19 @@
   width: 30px;
 } 
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+#footer-icons {
+  display: flex;
+  justify-content: center;
+}
+
+#copyright {
+  display: flex;
+  justify-content: space-around;
+} 
+
