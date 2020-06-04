@@ -26,3 +26,28 @@ function addRandomAvatarQuote() {
   const avatarQuoteContainer = document.getElementById('avatarQuote-container');
   avatarQuoteContainer.innerText = avatarQuote;
 }
+
+
+function getServletContent() {
+  console.log('Fetching servlet content.');
+
+  const responsePromise = fetch('/data');
+
+  responsePromise.then(handleResponse);
+}
+
+
+function handleResponse(response) {
+  console.log('Handling the response.');
+
+  const textPromise = response.text();
+
+  textPromise.then(addResponseToDom);
+}
+
+function addResponseToDom(content) {
+  console.log('Adding content to dom: ' + content);
+
+  const contentContainer = document.getElementById('content-container');
+  contentContainer.innerText = content;
+}
