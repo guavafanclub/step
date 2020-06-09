@@ -4,7 +4,20 @@
   background-image: url('images/taylor-van-riper-sky.jpg');
   display: flex;
   flex-direction: column;
+  font-family: 'Quattrocento', serif;
   padding: 30px;
+}
+
+.header a{
+  color: white;
+}
+
+.header a:link{
+  text-decoration: none;
+}
+
+.header a:hover{
+  text-decoration: underline;
 }
 
 .menu,
@@ -17,6 +30,11 @@
 #content {
   margin-left: auto;
   margin-right: auto;
+}
+
+#page-title{
+  padding: 20px;
+  text-align: center;
 }
 
 #avatarQuote-container {
@@ -42,6 +60,10 @@
   width: 500px;
 }
 
+.spread-text ul{
+  list-style: inside;
+}
+
 /* Footer */
 .footer img {
   width: 30px;
@@ -62,4 +84,5 @@
   display: flex;
   justify-content: space-around;
 } 
+
 
